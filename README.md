@@ -1,2 +1,5 @@
 # DressForWeather
-First project! Tweets what to wear for Seattle weather
+Tweets what to wear for Seattle weather, based on:
+ - Open Weather Map data
+ - My personal warmth preferences :)
+ 
