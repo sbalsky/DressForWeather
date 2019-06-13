@@ -1,0 +1,39 @@
+# Set variables for the Dress for Weather project
+
+OWM: # Info for Open Weather Map usage
+  APP_KEY: "a43598cd3c1324937c14aa6d6b66f66c"
+  CITY_ID: "5809844"  # Seattle. From list of OWM city IDs: http://bulk.openweathermap.org/sample/
+
+Needs: # points at which needs change, based on my prefs
+  SHORT: 80
+  LONG: 70
+  COAT: 50
+  HAT: 40
+  ALL: 20
+  BREEZE: 8
+  WIND: 15
+  Default_low: 50
+  Default_high: 70
+  DIFF: 5
+
+Twitter:
+  MAX_LENGTH: 280
+  API_KEY: "bxTgHSQH436FuLzQQmA8xuyyj"
+  SECRET_KEY: "z5vKteTmGHRx6bSJYQ1fjE7XqZJpOgLIGYpOVqJ4LLlaxwaKWg"
+  TOKEN: "1097676125549948928-rw0Sa3NnZThFweWiekf9PJLb5TQRlo"
+  TOKEN_SECRET: "8rs0hOd5oS6mLBkJpOiC0EyPXoY66ezeiv0EiGXWxuKqu"
+
+TEST:
+  today_low_low: 10
+  today_low_high: 90
+  today_high_low: 40
+  today_high_high: 90
+  yday_low_low: 20
+  yday_low_high: 80
+  yday_high_low: 20
+  yday_high_high: 80
+  precip_high: "Snow"
+  precip_med: "Rain"
+  precip_low: "Drizzle"
+  wind_speed_med: 10
+  wind_speed_high: 20
