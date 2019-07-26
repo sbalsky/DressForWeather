@@ -3,6 +3,7 @@
 OWM: # Info for Open Weather Map usage
   APP_KEY: "a43598cd3c1324937c14aa6d6b66f66c"
   CITY_ID: "5809844"  # Seattle. From list of OWM city IDs: http://bulk.openweathermap.org/sample/
+  UTC_offset: -8 # if ever expands to multi-city will need to base on CITY_ID somehow
 
 Needs: # points at which needs change, based on my prefs
   SHORT: 80
